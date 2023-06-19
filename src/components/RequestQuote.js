@@ -1,5 +1,4 @@
 import React from 'react';
-import Sidebar from './Sidebar';
 import Navbar from './Navbar';
 import { useLocation } from 'react-router-dom';
 
@@ -11,14 +10,11 @@ const RequestQuote = () => {
         <Navbar />
       </nav>
       <div className="flex bg-custom-image bg-cover">
-        <div className="w-[25%] bg-gray-200">
-          <Sidebar disableRequestQuote={location.pathname === '/request-a-quote'} />
-        </div>
-        <div className="w-[75%]">
+        <div className="w-full">
           <iframe
             src="https://hamptonjitney.thebusnetwork.com/?q=/book-a-vehicle/&;initialWidth=1920"
             width="100%"
-            style={{ height: '680px', border: 'none' }}
+            style={{ height: 'calc(100vh - 80px)', border: 'none' }}
           ></iframe>
         </div>
       </div>
