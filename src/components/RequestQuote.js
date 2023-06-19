@@ -7,11 +7,11 @@ const RequestQuote = () => {
   const location = useLocation();
   return (
     <div style={{ overflow: 'hidden' }}>
-      <nav className="text-white mt-10">
+      <nav className="text-white mt-0.5">
         <Navbar />
       </nav>
       <div className="flex bg-custom-image bg-cover">
-      <div className="w-[25%] bg-gray-200">
+        <div className="w-[25%] bg-gray-200">
           <Sidebar disableRequestQuote={location.pathname === '/request-a-quote'} />
         </div>
         <div className="w-[75%]">

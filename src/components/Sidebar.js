@@ -50,7 +50,7 @@ const Sidebar = () => {
               />
             </svg>
             </div>
-            <p className="pl-5 pb-10">Charters@hamptonjitney.com</p>
+            <p className="pl-5 pb-10">Charter@hamptonjitney.com</p>
           </div>
           <div className="flex flex-row">
             {" "}
