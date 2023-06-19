@@ -1,7 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate  } from "react-router-dom";
 
 const Sidebar = () => {
+  const navigate  = useNavigate();
+
+  const handleRequestQuote = () => {
+    navigate("/request-a-quote");
+  };
+  
   return (
     <div className="h-screen bg-green-900 px-4">
       <div className="flex flex-col ">
@@ -16,11 +22,14 @@ const Sidebar = () => {
           <br />
           of every size and type.
         </p>
-        <div className="text-white text-2xl w-15 text-center px-0 mt-20 border-2 border-white-600 w-[100%] rounded-lg bg-transparent font-bold">
-          REQUEST A <br />
-          COMPLIMENTARY
-          <br /> QUOTE
-        </div>
+        <button
+        className="text-white text-2xl w-15 text-center px-0 mt-20 border-2 border-white-600 w-[100%] rounded-lg bg-transparent font-bold"
+        onClick={handleRequestQuote}
+      >
+        REQUEST A <br />
+        COMPLIMENTARY
+        <br /> QUOTE
+      </button>
         <div className="text-white py-[30%]">
           <div className="flex flex-row">
             {" "}
