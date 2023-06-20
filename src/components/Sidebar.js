@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
+import logoImage from "../images/img.png";
 
 const Sidebar = () => {
   const navigate = useNavigate();
@@ -101,6 +102,11 @@ const Sidebar = () => {
             </div>
             <p className="pl-5 pb-10">253 Edwards Avenue <br />Claverton NY 11933</p>
           </div>
+          <div className="flex justify-center mt-auto">
+          <Link to="/IMG">
+            <img src={logoImage} alt="Logo" className="w-64 h-12 mt-1" />
+          </Link>
+        </div>
         </div>
       </div>
     </div>
