@@ -10,7 +10,7 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="h-screen bg-green-900 px-4">
+    <div className="h-full bg-green-900 px-4">
       <div className="flex flex-col">
         <hr className="border border-white-300 mt-4 ml-14 h-px w-2/3" />
         <Link to="/" className="text-2xl font-bold text-white pt-1 text-center">

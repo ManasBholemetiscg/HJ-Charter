@@ -3,7 +3,7 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Sidebar from '../components/Sidebar';
 import Navbar from '../components/Navbar';
-import MainContent from '../components/MainContent';
+//import MainContent from '../components/MainContent';
 import img1 from '../images/aboutusimg/1.JPG';
 import img2 from '../images/aboutusimg/2.JPG';
 import img3 from '../images/aboutusimg/3.JPG';
@@ -22,17 +22,17 @@ const CharterTeam = () => {
         <Sidebar />
       </div>
       <div className="w-[75%]">
-        <nav className="text-white mt-10">
+        <nav className="text-white mt-0">
           <Navbar />
         </nav>
-        <div className="flex flex-col items-center h-full bg-white bg-opacity-70">
+        <div className="flex flex-col items-center h-full bg-white bg-opacity-70 border border-black rounded-lg mx-4 mt-4 mb-8 pb-8">
           <h1 className="mt-20 font-bold mt-8">ABOUT US</h1>
           <p className="mt-10 w-[80%] text-justify mt-4">
             You plan, or we plan for you. Our talented Charter team can make all the arrangements to take your group anywhere you've planned, whether it be a day trip or a weekend excursion. We can order tickets, reserve rooms and arrange your meals - at group excursion rates. And if you want to do something but don't know what, ask us to plan for you.
           </p>
         
           <Carousel 
-            className="flex justify-between w-[60%] mt-4 mx-auto mt-20"
+            className="flex justify-between w-[50%] mt-4 mx-auto mt-24"
             showArrows={true}
             infiniteLoop={true}
             showThumbs={false}
