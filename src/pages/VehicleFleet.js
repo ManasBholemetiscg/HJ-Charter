@@ -22,6 +22,9 @@ import nt3 from '../images/vehicleimg/NORTHFORK TROLLEY/NorthForkTrolley_23.jpg'
 import nt4 from '../images/vehicleimg/NORTHFORK TROLLEY/NorthForkTrolley_25.jpg';
 import nt5 from '../images/vehicleimg/NORTHFORK TROLLEY/NorthForkTrolley_26.jpg';
 import nt6 from '../images/vehicleimg/NORTHFORK TROLLEY/NorthForkTrolley_27.jpg';
+import nt7 from '../images/vehicleimg/NORTHFORK TROLLEY/NorthForkTrolley_18.jpg';
+import hll1 from '../images/vehicleimg/HAMPTON LUXURY LINER/1.png';
+import hll2 from '../images/vehicleimg/HAMPTON LUXURY LINER/2.jpg';
 
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
@@ -45,43 +48,45 @@ const VehicleFleet = () => {
             <div className="flex flex-col items-center">
               <h1>HAMPTON AMBASSADOR</h1>
               <Carousel showArrows={true} infiniteLoop={true} showThumbs={false} showStatus={false} className="w-full">
-                <img src={ha1} alt="HAMPTON AMBASSADOR Carousel" className="w-[150px] h-[150px]" />
-                <img src={ha2} alt="HAMPTON AMBASSADOR Carousel" className="w-[150px] h-[150px]" />
-                <img src={ha3} alt="HAMPTON AMBASSADOR Carousel" className="w-[150px] h-[150px]" />
-                <img src={ha4} alt="HAMPTON AMBASSADOR Carousel" className="w-[150px] h-[150px]" />
-                <img src={ha5} alt="HAMPTON AMBASSADOR Carousel" className="w-[150px] h-[150px]" />
-                <img src={ha6} alt="HAMPTON AMBASSADOR Carousel" className="w-[150px] h-[150px]" />
-                <img src={ha7} alt="HAMPTON AMBASSADOR Carousel" className="w-[150px] h-[150px]" />
+                <img src={ha3} alt="HAMPTON AMBASSADOR Carousel" className="w-[100px] h-[150px]" />
+                <img src={ha1} alt="HAMPTON AMBASSADOR Carousel" className="w-[100px] h-[150px]" />
+                <img src={ha2} alt="HAMPTON AMBASSADOR Carousel" className="w-[100px] h-[150px]" />
+                <img src={ha4} alt="HAMPTON AMBASSADOR Carousel" className="w-[100px] h-[150px]" />
+                <img src={ha5} alt="HAMPTON AMBASSADOR Carousel" className="w-[100px] h-[150px]" />
+                <img src={ha6} alt="HAMPTON AMBASSADOR Carousel" className="w-[100px] h-[150px]" />
+                <img src={ha7} alt="HAMPTON AMBASSADOR Carousel" className="w-[100px] h-[150px]" />
               </Carousel>
             </div>
             <div className="flex flex-col items-center">
               <h1>HAMPTON JITNEY</h1>
               <Carousel showArrows={true} infiniteLoop={true} showThumbs={false} showStatus={false} className="w-full">
-                <img src={hj1} alt="HAMPTON JITNEY Carousel" className="w-[150px] h-[150px]" />
-                <img src={hj2} alt="HAMPTON JITNEY Carousel" className="w-[150px] h-[150px]" />
-                <img src={hj3} alt="HAMPTON JITNEY Carousel" className="w-[150px] h-[150px]" />
-                <img src={hj4} alt="HAMPTON JITNEY Carousel" className="w-[150px] h-[150px]" />
-                <img src={hj5} alt="HAMPTON JITNEY Carousel" className="w-[150px] h-[150px]" />
-                <img src={hj6} alt="HAMPTON JITNEY Carousel" className="w-[150px] h-[150px]" />
-                <img src={hj7} alt="HAMPTON JITNEY Carousel" className="w-[150px] h-[150px]" />
-                <img src={hj8} alt="HAMPTON JITNEY Carousel" className="w-[150px] h-[150px]" />
+                <img src={hj4} alt="HAMPTON JITNEY Carousel" className="w-[100px] h-[150px]" />
+                <img src={hj1} alt="HAMPTON JITNEY Carousel" className="w-[100px] h-[150px]" />
+                <img src={hj2} alt="HAMPTON JITNEY Carousel" className="w-[100px] h-[150px]" />
+                <img src={hj3} alt="HAMPTON JITNEY Carousel" className="w-[100px] h-[150px]" />
+                <img src={hj5} alt="HAMPTON JITNEY Carousel" className="w-[100px] h-[150px]" />
+                <img src={hj6} alt="HAMPTON JITNEY Carousel" className="w-[100px] h-[150px]" />
+                <img src={hj7} alt="HAMPTON JITNEY Carousel" className="w-[100px] h-[150px]" />
+                <img src={hj8} alt="HAMPTON JITNEY Carousel" className="w-[100px] h-[150px]" />
               </Carousel>
             </div>
             <div className="flex flex-col items-center">
               <h1>NORTHFOLK TROLLEY</h1>
               <Carousel showArrows={true} infiniteLoop={true} showThumbs={false} showStatus={false} className="w-full">
-                <img src={nt1} alt="NORTHFOLK TROLLEY Carousel" className="w-[150px] h-[150px]" />
-                <img src={nt2} alt="NORTHFOLK TROLLEY Carousel" className="w-[150px] h-[150px]" />
-                <img src={nt3} alt="NORTHFOLK TROLLEY Carousel" className="w-[150px] h-[150px]" />
-                <img src={nt4} alt="NORTHFOLK TROLLEY Carousel" className="w-[150px] h-[150px]" />
-                <img src={nt5} alt="NORTHFOLK TROLLEY Carousel" className="w-[150px] h-[150px]" />
-                <img src={nt6} alt="NORTHFOLK TROLLEY Carousel" className="w-[150px] h-[150px]" />
+                <img src={nt7} alt="NORTHFOLK TROLLEY Carousel" className="w-[100px] h-[150px]" />
+                <img src={nt1} alt="NORTHFOLK TROLLEY Carousel" className="w-[100px] h-[150px]" />
+                <img src={nt2} alt="NORTHFOLK TROLLEY Carousel" className="w-[100px] h-[150px]" />
+                <img src={nt3} alt="NORTHFOLK TROLLEY Carousel" className="w-[100px] h-[150px]" />
+                <img src={nt4} alt="NORTHFOLK TROLLEY Carousel" className="w-[100px] h-[150px]" />
+                <img src={nt5} alt="NORTHFOLK TROLLEY Carousel" className="w-[100px] h-[150px]" />
+                <img src={nt6} alt="NORTHFOLK TROLLEY Carousel" className="w-[100px] h-[150px]" />
               </Carousel>
             </div>
             <div className="flex flex-col items-center">
               <h1>HAMPTON LUXURY LINER</h1>
               <Carousel showArrows={true} infiniteLoop={true} showThumbs={false} showStatus={false} className="w-full">
-                <img src={nt1} alt="HAMPTON LUXURY LINER Carousel" className="w-[150px] h-[150px]" />
+                <img src={hll2} alt="HAMPTON LUXURY LINER Carousel" className="w-[100px] h-[150px]" />
+                <img src={hll1} alt="HAMPTON LUXURY LINER Carousel" className="w-[100px] h-[150px]" />
                 {/* Add more carousel slides for HAMPTON LUXURY LINER here */}
               </Carousel>
             </div>

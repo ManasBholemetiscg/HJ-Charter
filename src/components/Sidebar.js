@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import logoImage from "../images/img.png";
+import hjlogo from "../images/HJlogo.jpg";
 
 const Sidebar = () => {
   const navigate = useNavigate();
@@ -12,19 +13,24 @@ const Sidebar = () => {
   return (
     <div className="h-full bg-green-900 px-4">
       <div className="flex flex-col">
+      <div className="flex justify-center mt-auto rounded-lg">
+          <Link to="/about-us">
+            <img src={hjlogo} alt="Logo" className="w-60 h-12 mt-1 rounded-lg" />
+          </Link>
+        </div>
         <hr className="border border-white-300 mt-4 ml-14 h-px w-2/3" />
         <Link to="/" className="text-2xl font-bold text-white pt-1 text-center">
           CHARTERS
         </Link>
         <hr className="border border-white-300 ml-14 h-px w-2/3" />
-        <p className="text-white w-50 mt-10 text-start pl-14">
+        <p className="text-white w-50 mt-4 text-start pl-14">
           Hampton Jitney offers the finest <br />
           transportation services for groups
           <br />
           of every size and type.
         </p>
         <button
-          className="bg-green-500 hover:bg-green-700 text-white text-2xl w-full text-center px-4 mt-10 rounded-lg font-bold py-4 transition-all duration-300"
+          className="bg-green-500 hover:bg-green-700 text-white text-2xl w-full text-center px-4 mt-10 rounded-lg font-bold py-4 transition-all duration-300 mt-8"
           onClick={handleRequestQuote}
         >
           REQUEST A <br />
@@ -52,7 +58,7 @@ const Sidebar = () => {
             </div>
             <a
               href="mailto:charter@hamptonjitney.com"
-              className="pl-5 pb-10 text-white hover:text-green-200"
+              className="pl-3 pb-6 text-white hover:text-green-200"
             >
               charter@hamptonjitney.com
             </a>
@@ -75,7 +81,7 @@ const Sidebar = () => {
                 />
               </svg>
             </div>
-            <p className="pl-5 pb-10">631.283.4600 ext.642</p>
+            <p className="pl-3 pb-6">631.283.4600 ext.642</p>
           </div>
           <div className="flex flex-row">
             {" "}
@@ -100,11 +106,11 @@ const Sidebar = () => {
                 />
               </svg>
             </div>
-            <p className="pl-5 pb-10">253 Edwards Avenue <br />Claverton NY 11933</p>
+            <p className="pl-3 pb-6 ">253 Edwards Avenue <br />Claverton NY 11933</p>
           </div>
           <div className="flex justify-center mt-auto">
           <Link to="/IMG">
-            <img src={logoImage} alt="Logo" className="w-64 h-12 mt-1" />
+            <img src={logoImage} alt="Logo" className="w-64 h-12 mt-2" />
           </Link>
         </div>
         </div>
