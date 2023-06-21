@@ -10,7 +10,7 @@ const Home = () => {
       <Sidebar/>
     </div>
     <div className="w-[75%] "> 
-      <nav className="text-white mt-10"> 
+      <nav className="text-white mt-0"> 
         <Navbar/>
       </nav>
       <MainContent/>
